@@ -1,0 +1,19 @@
+apiVersion: v1
+entries:
+  root-chart:
+  - apiVersion: v2
+    appVersion: 1.16.0
+    created: "2023-07-18T18:49:06.780337467+06:00"
+    dependencies:
+    - condition: hello-world.enabled
+      name: hello-world
+      repository: file://../dependency_chart/hello-world
+      version: 0.1.0
+    description: A Helm chart for Kubernetes
+    digest: 5dee1451f19639de9a53094bf723e7f3e896242172653819c71afaffc35aae27
+    name: root-chart
+    type: application
+    urls:
+    - https://mahmudrayhan.github.io/helm-example/root-chart-0.1.0.tgz
+    version: 0.1.0
+generated: "2023-07-18T18:49:06.775230003+06:00"
